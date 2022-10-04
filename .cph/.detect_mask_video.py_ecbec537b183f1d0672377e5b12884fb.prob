@@ -1,0 +1,1 @@
+{"name":"Local: detect_mask_video","url":"d:\\Face-Mask-Detection\\detect_mask_video.py","tests":[{"id":1638725085765,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Face-Mask-Detection\\detect_mask_video.py","group":"local","local":true}
