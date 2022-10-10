@@ -13,6 +13,9 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 	# grab the dimensions of the frame and then construct a blob
 	# from it
 	(h, w) = frame.shape[:2]
+	
+	# returns a blob which is our input image after mean subtraction, normalizing, and channel swapping
+	# cv2.dnn.blobFromImage(image, scalefactor=1.0, size, mean, swapRB=True)
 	blob = cv2.dnn.blobFromImage(frame, 1.0, (224, 224),
 		(104.0, 177.0, 123.0))
 
